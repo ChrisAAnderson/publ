@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="swipe__bundle/swiper-bundle.min.css">
+    
+    <script src="https://kit.fontawesome.com/10e2f05253.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <title>Portfolio</title>
+</head>
+<body>
+  
+
+    <!-- Navbar section -->
+     <nav class="navbar">
+      <div class="navbar__container">
+          <a href="/" id="navbar__logo">
+              <i class="fa-solid fa-meteor"></i>
+          </a>
+          <div class="navbar__toggle" id="mobile-menu">
+              <span class="bar"></span> <span class="bar"></span>
+              <span class="bar"></span>               
+            </div>
+          <ul class="navbar__menu">
+              <li class="navbar__item">
+                  <a href="/" class="navbar__links">Home</a>
+                </li>
+                <li class="navbar__item">
+                  <a href="/" class="navbar__links">Work</a>
+                </li>
+                <li class="navbar__item">
+                  <a href="/" class="navbar__links">Resume</a>
+                </li>
+                <li class="navbar__item">
+                  <a href="/" class="navbar__links">Contact</a>
+                </li>
+          </ul>
+      </div>        
+    </nav>  
+
+  <!-- Hero section  -->
+    <div class="main">     
+      <div class="main__container">
+          <img src="images/high-technology-3593236_1920.jpg" alt="" class="background__img">
+            
+          <img src="images/MyFace.png" alt="" id="face__img">
+          <img src="images/Monitor.png" alt="pic" id="main__img"/>
+          <canvas id="canvas__Matrix"></canvas>
+            
+          <div class="main__text">
+            <h1>&gt; HELLO WORLD! I'm Christopher</h1>
+            <h2>&gt; A Software Engineer, Front End and App developer</h2>
+            <p>&gt; With an experience of more than 3 years</p>
+            <p>&gt; Successfully completed the IT- Specialist - Application Development training in Germany</p>
+            <p>&gt; Recognized as a practical and effective developer</p>
+            <p>&gt; Completing projects on schedule within budget</p>
+          </div>
+      </div>
+     </div> 
+      
+
+    <!-- Work section -->
+     <div class="work">
+      <div class="work__container">
+        <h1>Work</h1>
+        <div class="work__content">
+          <div class="work__text">
+            <h1>I work with c# specialist for epplus</h1>
+          </div>
+          <div class="work__examples">
+            <img src="images/ComputerDesk.png" alt="" id="img__desk"/>             
+            <div class="slider__container">
+              <div class="slider__content">
+                <div class="card-wrapper swiper-wrapper">
+                  <div class="card swiper-slide">
+
+                    <div class="image__content">
+                      <img src="images/ExampleWorkDeveloperOne.jpg" alt="" id="card__img">
+                      <div class="text__content">
+                        <h4>Patent search input auto correct</h2>
+                        <p>If the Patent number is in the wrong format</p>
+                        <p>A formal from an excel sheet will be taken to convert it in the right format</p>
+                        <button class="button">View Project</button> 
+                      </div>
+                                          
+                    </div>
+                  </div>
+
+                  <div class="card swiper-slide">
+
+                    <div class="image__content">
+                      <img src="images/ExampleworkDeveloperTwo.jpg" alt="" id="card__img">
+                      <div class="text__content">
+                        <h4>Excel sheet rebuild</h2>
+                        <p>An excel sheet will be used as base</p>
+                        <p>And will be converted to the wished style of the costumer</p>
+                        <button class="button">View Project</button> 
+                      </div>                             
+                    </div>
+                  </div>
+                </div>
+              </div>  
+              <div class="swiper-button-next swiper-navBtn"></div>
+              <div class="swiper-button-prev swiper-navBtn"></div>
+              <div class="swiper-pagination"></div>              
+            </div> 
+          </div>         
+        </div>
+      </div>       
+    </div>       
+    
+    <!-- Resume link  -->
+    <div class="resume__container">
+      <a>To see my Resume and Work certificate please click here</a>
+    </div>
+
+    <!-- Contact/Impressum -->
+    <script src="swipe__bundle/swiper-bundle.min.js"></script>
+    <script src="app.js"></script> 
+      
+</body>
+</html>
